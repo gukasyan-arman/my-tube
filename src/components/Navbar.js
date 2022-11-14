@@ -9,9 +9,11 @@ export function Navbar() {
 		<div className={style.container}>
 			<Link to='/' className={style.logo}>
 				<img src={logo} alt='logo' />
-				<p>MyTube</p>
+				<p className={style.logoTitle}>MyTube</p>
 			</Link>
-			<SearchBar />
+			<form>
+				<SearchBar />
+			</form>
 		</div>
 	);
 }

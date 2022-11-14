@@ -1,10 +1,11 @@
 .container {
-	width: 450px;
+	width: 550px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	border-radius: 25px;
 	border: 1px solid #343434;
+	margin: 0 auto;
 }
 
 .searchInput {
@@ -27,9 +28,29 @@
 .searchButton {
 	color: white;
 	padding: 12px 20px;
-	
 	border-bottom-right-radius: 25px;
 	border-top-right-radius: 25px;
 	transition: 0.3s ease;
 	background-color: #222;
 }
+
+form {
+	margin: 0 auto;
+}
+
+@media (max-width: 940px) {
+	.container {
+		width: 350px;
+	}
+}
+@media (max-width: 560px) {
+	.container {
+		width: 350px;
+	}
+}
+@media (max-width: 440px) {
+	.container {
+		width: 260px;
+	}
+}
+

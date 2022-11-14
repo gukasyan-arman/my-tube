@@ -5,13 +5,14 @@ import {searchSvg} from '../../utils/constants'
 
 export function SearchBar() {
 	return (
-		<div className={style.container}>
-			<input 
+		<form className={style.container} onSubmit={() => {}}>
+			<input
 				placeholder='Введите запрос' 
 				type="text" 
 				className={style.searchInput} 
+				onChange={() => {}}
 			/>
-			<a href='#' className={style.searchButton}>🔍</a>
-		</div>
+			<button href='#' type='submit' className={style.searchButton}>🔍</button>
+		</form>
 	);
 }

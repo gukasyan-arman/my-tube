@@ -1,4 +1,5 @@
 .container {
+	background-color: black;
 	padding: 5px 20px;
 	display: flex;
 	flex-direction: row;
@@ -10,17 +11,30 @@
 	overflow: hidden;
 	top: 0;
     z-index: 2022;
-	margin-bottom: 60px;
 	
 }
 
 .logo {
 	display: flex;
     align-items: center;
+}
+.logoTitle {
 	font-size: 22px;
 	font-weight: 500;
 }
 .logo img {
 	margin-right: 10px;
 	height: 36px;
+}
+
+@media (max-width: 560px) {
+	.logoTitle {
+		display: none;
+	}
+}
+
+@media (max-width: 440px) {
+	.container {
+		padding: 10px 5px;
+	}
 }
