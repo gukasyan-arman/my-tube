@@ -34,9 +34,9 @@ export const categories = [
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
+export const demoThumbnailUrl = 'https://i.ytimg.com/vi/7kT33murB3c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1UbE58sXRuV956eTPP4I7gyqVlQ';
 export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
 export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'JavaScript Mastery';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
-export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
+export const demoChannelTitle = 'Captain Halyard';
+export const demoVideoTitle = 'Vol. 5 - Compilation of Traditional Folk & Sea Songs - (ft. Kick Up the Dust, Pyrates! & more)';
+export const demoProfilePicture = 'https://yt3.ggpht.com/n0vFZD0G5rLb0PQv8fPOEkqp8Vcuu5grT0XnIonDNneA213fG5ojZNYh4T6UAt-B2mA3-Nce4w=s48-c-k-c0x00ffffff-no-rj'

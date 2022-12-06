@@ -1,4 +1,5 @@
 .container {
+	position: fixed;
 	display: flex;
 	flex-direction: column;
 	width: 220px;
@@ -7,6 +8,7 @@
 	padding: 0 20px;
 	overflow: auto;
 	scroll-behavior: smooth;
+	z-index: 2021;
 }
 
 .item {
@@ -52,6 +54,7 @@
 
 @media (max-width: 740px) {
 	.container {
+		background-color: black;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -60,6 +63,7 @@
 		height: 80px;
 		border: none;
 		margin-right: 10px;
+		margin-top: -10px;
 	}
 	.item {
 		align-items: center;
